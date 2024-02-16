@@ -1,0 +1,169 @@
+body{
+    background-color: black;
+    max-height: fit-content;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;   
+}
+
+header li {
+    margin: 10px;
+    font-size: large;
+    font-weight: 600;
+}
+
+header li i{
+    color: white;
+    font-size: 35px;
+}
+
+header a:hover{
+    color: #ffdd03;
+    transition: color 0.4s linear;
+}
+
+header li i:hover{
+    color: #ffdd03;
+    transition: color 0.4s linear;
+}
+/* HEADER END */
+
+/* MAIN */
+main{
+    width: 90%;
+    margin-left: 5%;
+}
+
+
+.Block-1{
+    background-color: #ffdd03;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+}    
+
+.kiri{
+    margin-left: 13%;
+}
+
+.btn{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: yellow;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.Block-2{
+    margin: 4vh 0 4vh 0;
+}
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: yellow;
+}
+
+.Skill{
+    background-color: #f5b301;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 50px;
+    font-size: 1.2rem;
+    
+}
+
+.skill-box{
+    min-width: 30%;
+    width: 30%;
+    margin: 10px 0 10px 0;
+}
+
+/* .skill-title{
+    
+}
+
+.skill-icon{
+
+} */
+
+.skill-icon img{
+    width: 90px;
+    height: 90px;
+}
+
+.Block-3{
+    color: #f5b301;
+    display: flex;
+    justify-content: center;
+}
+
+.Projects{
+    background-color: #f5b301;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 50px;
+    font-size: 1.2rem;
+}
+
+/* .Project-title{
+
+} */
+
+.project-img img{
+    width: 550px;
+    height: 550px;
+}
+
+
+/* MAIN */
+
+/* FOOTER */
+
+footer{
+    background-color: #f5b301;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+
+/* FOOTER */
