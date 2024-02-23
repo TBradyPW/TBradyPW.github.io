@@ -58,11 +58,17 @@ main{
     background-color: #ffdd03;
     height: 45vh;
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }    
 
 .kiri{
     margin-left: 13%;
+}
+
+.kanan img{
+    width: 300px;
+    margin: 0% 100px 15% 0px;
 }
 
 .btn{
